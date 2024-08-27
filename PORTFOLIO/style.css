@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  
+}
+body{
+    color: aliceblue;
+}
+                        
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    display: flex;
+    justify-content: space-between;  
+    /* is sa space ata ha upper wala sa  */
+    align-items: center;
+    z-index: 100;  
+    /* is sa bbackground image ka upper index ata ha  */
+}
+.logo{
+    position: relative;
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+    font-weight: 600;
+}
+.navbar a{
+    display: inline-block;
+    font-size: 25px;
+    text-decoration: none;
+    font-weight: 600;
+    color: white;
+    margin-left: 35px;
+    transition: .3s;
+}
+.navbar a:hover{
+    color: aquamarine;
+}
+.hit{
+    position: relative;
+    width: 100%;
+    background: url(d.jfif)no-repeat;
+    justify-content: space-between;
+    height: 100vh;
+    background-color: rgb(2, 22, 41);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding: 70px 10% 0;
+      margin-top: 0px;
+}
+.hit .homeimage img{
+   
+    background:transparent;
+    border:6px solid#0ef;
+    color: #0ef;
+    border-radius: 30%;
+     box-shadow: 10px 10px  50px 34px #0ef;
+     
+
+}
+.home-content{
+    max-width: 600px;
+    
+}
+.home-content h3{
+    font-size: 32px;
+     font-weight:600;
+
+}    
+.home-content h1 {
+    font-size: 56px;
+    font-weight: 700;
+    margin: -3px 0;
+} 
+.home-sci a{
+    
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width:40px;
+    height: 40px;
+    background:transparent;
+    border:2px solid rgb(58, 129, 123);
+    border-radius: 50%;
+    color: rgb(58, 129, 123);
+    text-decoration: none;
+    font-size: 20px;
+    margin: 30px 15px 30px 0;
+    box-shadow: 60%;
+}
+.home-sci a:hover{
+
+    background: #0ef;
+    color: #081b29;
+   /* box-shadow: 0 0 123px; */
+}
+.button{
+    display: inline-block;
+    padding :20px 33px;
+    border:2px solid rgb(58, 129, 123);
+    background-color: #0ef;
+    color: #081b29;
+    border-radius: 40%;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
